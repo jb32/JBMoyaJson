@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0E7230AB04BFC3D40723069 /* Pods_MoyaJsonExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FC673DB329C051767FD913 /* Pods_MoyaJsonExt.framework */; };
+		F06ACF302089C35C007904D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06ACF2F2089C35C007904D2 /* AppDelegate.swift */; };
+		F06ACF322089C35C007904D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06ACF312089C35C007904D2 /* ViewController.swift */; };
+		F06ACF352089C35C007904D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06ACF332089C35C007904D2 /* Main.storyboard */; };
+		F06ACF372089C36A007904D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06ACF362089C36A007904D2 /* Assets.xcassets */; };
+		F06ACF3A2089C36A007904D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06ACF382089C36A007904D2 /* LaunchScreen.storyboard */; };
+		F06ACF452089C39B007904D2 /* ResponseExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06ACF422089C39B007904D2 /* ResponseExt.swift */; };
+		F06ACF462089C39B007904D2 /* RequestExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06ACF432089C39B007904D2 /* RequestExt.swift */; };
+		F06ACF472089C39B007904D2 /* JsonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06ACF442089C39B007904D2 /* JsonExt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00FC673DB329C051767FD913 /* Pods_MoyaJsonExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaJsonExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7E244887B52C91FDDD67F2 /* Pods-MoyaJsonExt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaJsonExt.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaJsonExt/Pods-MoyaJsonExt.release.xcconfig"; sourceTree = "<group>"; };
+		AA2C7CBDC26ED98EE7C34397 /* Pods-MoyaJsonExt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaJsonExt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaJsonExt/Pods-MoyaJsonExt.debug.xcconfig"; sourceTree = "<group>"; };
+		F06ACF2C2089C35C007904D2 /* MoyaJsonExt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaJsonExt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06ACF2F2089C35C007904D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F06ACF312089C35C007904D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F06ACF342089C35C007904D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06ACF362089C36A007904D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F06ACF392089C36A007904D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F06ACF3B2089C36A007904D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06ACF422089C39B007904D2 /* ResponseExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseExt.swift; sourceTree = "<group>"; };
+		F06ACF432089C39B007904D2 /* RequestExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestExt.swift; sourceTree = "<group>"; };
+		F06ACF442089C39B007904D2 /* JsonExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonExt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06ACF292089C35C007904D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E7230AB04BFC3D40723069 /* Pods_MoyaJsonExt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		507B48C224D847B859E78F2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FC673DB329C051767FD913 /* Pods_MoyaJsonExt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		749DD2F363E3B44C619E8F48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA2C7CBDC26ED98EE7C34397 /* Pods-MoyaJsonExt.debug.xcconfig */,
+				9F7E244887B52C91FDDD67F2 /* Pods-MoyaJsonExt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F06ACF232089C35C007904D2 = {
+			isa = PBXGroup;
+			children = (
+				F06ACF2E2089C35C007904D2 /* MoyaJsonExt */,
+				F06ACF2D2089C35C007904D2 /* Products */,
+				749DD2F363E3B44C619E8F48 /* Pods */,
+				507B48C224D847B859E78F2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F06ACF2D2089C35C007904D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06ACF2C2089C35C007904D2 /* MoyaJsonExt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06ACF2E2089C35C007904D2 /* MoyaJsonExt */ = {
+			isa = PBXGroup;
+			children = (
+				F06ACF412089C389007904D2 /* Classes */,
+				F06ACF2F2089C35C007904D2 /* AppDelegate.swift */,
+				F06ACF312089C35C007904D2 /* ViewController.swift */,
+				F06ACF332089C35C007904D2 /* Main.storyboard */,
+				F06ACF362089C36A007904D2 /* Assets.xcassets */,
+				F06ACF382089C36A007904D2 /* LaunchScreen.storyboard */,
+				F06ACF3B2089C36A007904D2 /* Info.plist */,
+			);
+			path = MoyaJsonExt;
+			sourceTree = "<group>";
+		};
+		F06ACF412089C389007904D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F06ACF442089C39B007904D2 /* JsonExt.swift */,
+				F06ACF432089C39B007904D2 /* RequestExt.swift */,
+				F06ACF422089C39B007904D2 /* ResponseExt.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06ACF2B2089C35C007904D2 /* MoyaJsonExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06ACF3E2089C36A007904D2 /* Build configuration list for PBXNativeTarget "MoyaJsonExt" */;
+			buildPhases = (
+				3A63F19BEF43A4D8013E5AA8 /* [CP] Check Pods Manifest.lock */,
+				F06ACF282089C35C007904D2 /* Sources */,
+				F06ACF292089C35C007904D2 /* Frameworks */,
+				F06ACF2A2089C35C007904D2 /* Resources */,
+				8A0E3C2148E45F92D7CE9B40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoyaJsonExt;
+			productName = MoyaJsonExt;
+			productReference = F06ACF2C2089C35C007904D2 /* MoyaJsonExt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06ACF242089C35C007904D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = JB;
+				TargetAttributes = {
+					F06ACF2B2089C35C007904D2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F06ACF272089C35C007904D2 /* Build configuration list for PBXProject "MoyaJsonExt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06ACF232089C35C007904D2;
+			productRefGroup = F06ACF2D2089C35C007904D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06ACF2B2089C35C007904D2 /* MoyaJsonExt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06ACF2A2089C35C007904D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06ACF3A2089C36A007904D2 /* LaunchScreen.storyboard in Resources */,
+				F06ACF372089C36A007904D2 /* Assets.xcassets in Resources */,
+				F06ACF352089C35C007904D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A63F19BEF43A4D8013E5AA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoyaJsonExt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0E3C2148E45F92D7CE9B40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoyaJsonExt/Pods-MoyaJsonExt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaJsonExt/Pods-MoyaJsonExt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06ACF282089C35C007904D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06ACF322089C35C007904D2 /* ViewController.swift in Sources */,
+				F06ACF462089C39B007904D2 /* RequestExt.swift in Sources */,
+				F06ACF452089C39B007904D2 /* ResponseExt.swift in Sources */,
+				F06ACF302089C35C007904D2 /* AppDelegate.swift in Sources */,
+				F06ACF472089C39B007904D2 /* JsonExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F06ACF332089C35C007904D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06ACF342089C35C007904D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F06ACF382089C36A007904D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06ACF392089C36A007904D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06ACF3C2089C36A007904D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F06ACF3D2089C36A007904D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06ACF3F2089C36A007904D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2C7CBDC26ED98EE7C34397 /* Pods-MoyaJsonExt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoyaJsonExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xue.MoyaJsonExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06ACF402089C36A007904D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7E244887B52C91FDDD67F2 /* Pods-MoyaJsonExt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoyaJsonExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xue.MoyaJsonExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06ACF272089C35C007904D2 /* Build configuration list for PBXProject "MoyaJsonExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ACF3C2089C36A007904D2 /* Debug */,
+				F06ACF3D2089C36A007904D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06ACF3E2089C36A007904D2 /* Build configuration list for PBXNativeTarget "MoyaJsonExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ACF3F2089C36A007904D2 /* Debug */,
+				F06ACF402089C36A007904D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06ACF242089C35C007904D2 /* Project object */;
+}

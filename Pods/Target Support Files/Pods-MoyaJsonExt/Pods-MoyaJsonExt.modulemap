@@ -1,0 +1,6 @@
+framework module Pods_MoyaJsonExt {
+  umbrella header "Pods-MoyaJsonExt-umbrella.h"
+
+  export *
+  module * { export * }
+}
