@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = ["JBMoyaJson/Sources/*.swift", "JBMoyaJson/Sources/JBMoyaJson.h", "JBMoyaJson/Sources/JsonExt.swift", "JBMoyaJson/Sources/RequestExt.swift", "JBMoyaJson/Sources/ResponseExt.swift"]
+  s.source_files  = ["JBMoyaJson/Sources/*"]
   #s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = ["JBMoyaJson/Sources/JBMoyaJson.h"]
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.framework = "Moya/RxSwift", "Moya"
+  # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
