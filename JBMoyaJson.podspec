@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "Moya/RxSwift", "Moya"
+  s.framework = "Moya/RxSwift", "Moya"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
